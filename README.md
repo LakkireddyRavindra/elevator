@@ -23,7 +23,7 @@ The Elevator Management System simulates the operation of elevators in a multi-s
 &middot; direction (Direction Enum): Indicates the desired direction (e.g., UP or DOWN).<br>
 ### Why a Class?
 
-**Abstraction:** Encapsulating floor and direction into a Request class makes it easier to extend functionality, like adding timestamps or prioritizing emergency requests.
+**Abstraction:** Encapsulating floor and direction into a Request class makes it easier to extend functionality, like adding timestamps or prioritizing emergency requests.<br>
 **Tradeoff:** A simple pair of integers could represent floor and direction, but this would make extending the system harder and increase code coupling.
 
 # 3. Enums: Direction and DoorState
